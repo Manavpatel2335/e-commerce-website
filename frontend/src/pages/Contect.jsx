@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../components/Title.jsx'
 import { assets } from '../assets/frontend_assets/assets.js'
-import NewsletterBox from '../components/NewsLetterBox.jsx'
+import NewsletterBox from '../components/NewsletterBox.jsx'
 
 
 const Contect = () => {
@@ -22,7 +22,9 @@ const Contect = () => {
           <button className='text-center text-md text-gray-600 border border-black hover:bg-black hover:text-white transition-all duration-500 w-2/4 px-8 py-4'>Explore Jobs</button>
         </div>
       </div>    
-      
+
+      <NewsletterBox />
+
     </div>
     
   )
