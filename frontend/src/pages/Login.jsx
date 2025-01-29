@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import NewsletterBox from '../components/NewsLetterBox';
 import { ShopContext } from '../context/ShopContext';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -80,10 +79,6 @@ const Login = () => {
 
         <button className='bg-black text-white font-light px-8 py-2 mt-4'>{currentState === 'Login' ? 'Sign In' : 'Sign Up'}</button>
       </form>
-
-      <div className='mt-[80px]'>
-          <NewsletterBox />
-      </div>
           
     </div>
 )}
