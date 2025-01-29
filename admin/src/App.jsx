@@ -1,12 +1,12 @@
   import React, { useEffect, useState } from 'react'
   import Navbar from './components/Navbar'
-  import SideBar from './components/SideBar'
   import { Route, Routes } from 'react-router-dom'
   import List from './pages/List'
   import Orders from './pages/Orders'
   import AddItem from './pages/AddItem'
   import Login from './components/Login'
   import { ToastContainer } from 'react-toastify';
+  import SideBar from './components/Sidebar'
 
   export const backendUrl = import.meta.env.VITE_BACKEND_URL
 
