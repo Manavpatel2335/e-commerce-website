@@ -33,12 +33,12 @@ const Verify = () => {
   }
 
   useEffect(()=>{
-    verifyPayment()
+    verifyPayment();
   },[token])
 
   return (
     <div>
-      
+      Verifying payment...
     </div>
   )
 }
